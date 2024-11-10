@@ -5634,3 +5634,44 @@ header.main-header .header-sticky.active{
 .our-project h2 {
 	color: white;
 }
+.social {
+	position: fixed;
+	top: 50%;
+	right: -23px;
+	transform: translate(-50%, -50%);
+	list-style-type: none;
+	z-index: 999;
+}
+.social a {
+	font-size: 22px;
+	color: white;
+}
+
+.social li{
+	padding: 10px 13px;
+	border-radius: 100px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.social li:nth-child(1) {
+	background-color: #1988dd;
+}
+.social li:nth-child(3) {
+	background-color: #0866ff;
+}
+.social li:nth-child(2) {
+	background-color: green;
+}
+.social li:nth-child(4) {
+	background-color: #3b5998;
+}
+.social li:nth-child(5) {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.social li:nth-child(6) {
+	background-color: #0077b5;
+}
+.whats-app span {
+  color: white;
+}
