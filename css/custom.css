@@ -4422,7 +4422,7 @@ header.main-header .header-sticky.active{
 
 	.cta-box-image{
 		text-align: center;
-		display: none;
+        /* display: none; */
 	}
 
 	.cta-box-image img{
